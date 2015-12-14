@@ -146,7 +146,8 @@
 		//flagButton.backgroundColor = [UIColor grayColor];
 		flagButton.exclusiveTouch = YES;
 
-		[self addSubview:flagButton]; titleWidth -= (iconButtonWidth + buttonSpacing);
+//		[self addSubview:flagButton];
+        titleWidth -= (iconButtonWidth + buttonSpacing);
 
 		markButton = flagButton; markButton.enabled = NO; markButton.tag = NSIntegerMin;
 
